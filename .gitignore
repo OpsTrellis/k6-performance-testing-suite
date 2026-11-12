@@ -1,0 +1,7 @@
+node_modules/
+.env
+.env.local
+summary.json
+summary.html
+*.log
+

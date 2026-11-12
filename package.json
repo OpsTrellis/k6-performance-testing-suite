@@ -1,0 +1,35 @@
+{
+  "name": "@opstrellis/k6-performance-testing-suite",
+  "version": "1.0.0",
+  "description": "⚡ Enterprise-grade k6 load and performance testing suite with modular thresholds, smoke/load/stress profiles, and Grafana / InfluxDB live dashboards.",
+  "type": "module",
+  "scripts": {
+    "test:smoke": "k6 run tests/smoke-test.js",
+    "test:load": "k6 run tests/load-test.js",
+    "test:stress": "k6 run tests/stress-test.js",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down"
+  },
+  "keywords": [
+    "k6",
+    "load-testing",
+    "performance-testing",
+    "sdet",
+    "grafana",
+    "influxdb",
+    "qa-automation",
+    "stress-testing",
+    "opstrellis"
+  ],
+  "author": "OpsTrellis <info@opstrellis.com> (https://opstrellis.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpsTrellis/k6-performance-testing-suite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OpsTrellis/k6-performance-testing-suite/issues"
+  },
+  "homepage": "https://opstrellis.com/services/custom-software-development/"
+}
+
